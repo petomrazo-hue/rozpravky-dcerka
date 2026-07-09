@@ -209,16 +209,12 @@
   // ids: ručne zoradené video ID v chronologickom poradí (namiesto cudzích playlistov,
   // ktoré bývajú nekompletné/nezoradené/mŕtve) — prvé ID sa prehrá prvé, potom nasledujú ďalšie.
   const SHOWS = [
+    // predošlý zdroj (kanál Elf Samael) mal embedovanie vypnuté takmer na všetkých videách -> nič sa neprehralo.
+    // nahradené kanálom, kde je embed povolený, zoradené chronologicky podľa roku výroby.
     { title:"Krtko", ids:[
-      "__VW8vuPu_c","sVBrRv8s2jQ","lhuMnz4enzU","jdvwqZUEbhc","RYwrCTxF9Oc","j5plTC3psKA",
-      "lfmQoI5Mur8","__6ShpvC_Tw","Bh1AnyL6lR4","h8xO4PiJ--w","zalSHd-B26c","lcY7MY_NT_s",
-      "cZQFpvKhbyw","WXbkiXqOpvk","AheExCxJxlo","otTwNhLcDfQ","X811vvZbYwg","9XjgsdslX5A",
-      "oKtWpECeuIc","O2XNh-vXZfQ","pXb6wz7RF60","LqGqqzTO8MQ","WesccyQ6V5U","ZgBMXI1WKWg",
-      "4AVdVbPhxFo","KTs-LhnUMFs","cY_WMN51Hzk","LfWS47WcdDw","D6u8MZti8FU","2Un-sNSGNv8",
-      "bq3i1zjAIa4","JaufuWSedI4","67OhMYz2nRE","Z2QmSscnr94","h40PFystqQU","mbCC1o66oso",
-      "pH33Z0U_EKc","U77kOuIPqs0","AQPVD3amLlE","juzRT3vNt3c","DSGHG4P25gY","-7nCF5xbu_M",
-      "Pe723DeFfFY","ZTlzDN3oF34","37py7nLcXZM","DjHNefOQb2g","N3n_9tfjJY4","kL8516au93w",
-      "fE0326aRzQ4","vLftl9DfF5w","Q89zVmWOKp4",
+      "pzyYjJVtY1E","L8djAPmHKt8","zRfjNgxgWNE","ixEbge2GWNE","gpxQKKWIubY",
+      "Mg0V7lDYAt8","jaiDRb5BkPc","Z4v3bLEo0I0","jpE6SgLZ1uE","zKIiVOSf9wM",
+      "MTtQyRWe6ms","zlZd6Pr2my4","AsWm9gCMSCs","VUspIm9gDRE","vdZ7XpS0ZIQ",
     ]},
     { title:"Macko Uško", ids:[
       "MMYWUf4Y6xY","nEVNPiNDo74","9F787OtC8bk","QDVb6sfiY-0","LBMf4T0ueXE","EYeRqt0qeqg",
@@ -237,6 +233,13 @@
       "ac9owSxMEcE","j3Pyfn5UPpg","RAAL4vPaGjo","Pd13A_VRtJI","Quis95eqdxw","Qc483rpaHI0",
       "Locknq-5fQY","CSKc1ZLY8es","zTss4DkEvXw","YoTiJjNrmvE","j4HUeDCSVvc","0DjuHoPU_IY",
       "yZJ22Q2TIE8","KWfX6TAsQpE",
+    ]},
+    // zdroj čísluje len časť dielov (2,3,5,7 potvrdené) - zvyšné poradie je najlepší odhad podľa témy
+    { title:"Bol raz jeden život", ids:[
+      "ONdRbp3-Ek4","pX9cfgnoSNs","N5sxGajw520","xmhhAZ6ZoKQ","Cdc3Dr4_wEo","dhMT4y4860w",
+      "IzuIsrSaVDA","1kDRLbiTBzk","gUc8JaJAGuE","BWbPfiiHNAM","TTni1Q2VzVU","WwN-X2kicSA",
+      "8TgNHyPT5wU","dLdbpJCMrwo","OJG2uPaVDnU","KebhBj4JbtE","FAXShzA0BK4","tqEtXlKE_HQ",
+      "YeJn488YnTQ","WXPpLXYJejs","9b2Yo-Ko5NM","mTe48kJrrZg","0xCOTmIH5f4","gCQsombikKQ",
     ]},
   ];
 
